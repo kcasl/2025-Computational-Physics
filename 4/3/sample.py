@@ -20,5 +20,5 @@ def root_newton(f, df, guess, tolerance=1.0e-6):
     return x  # answer is x +/- Tolerance
 
 tolerance=1.0e-6
-theta_0 = root_newton(cos, -sin, pi/7, tolerance=1.0e-6)
+theta_0 = root_newton(cos, sin, pi/7, tolerance=1.0e-6)
 print("Found f (x) = 0 at x = %.8f +/- %0.8f " % (theta_0 , tolerance))
