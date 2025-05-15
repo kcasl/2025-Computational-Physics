@@ -4,7 +4,8 @@ tolerance = 1.0e-6
 cnt = 0
 
 def f(x):
-    return math.exp(x) * math.log(x) - x ** 2
+    f = x*x - 5
+    return f
 
 a, b = map(float, input("Enter two guesses, separated by commas: ").split(','))
 

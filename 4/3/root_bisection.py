@@ -17,5 +17,3 @@ def f(x):
     return math.exp(x) ** 2 - 3 * math.exp(x)
 
 print(root_bisection(f, 1, 10))
-
-# output : ('Found f(x) = 0 at x = 9.99999946 ± 0.00000100', 'repeat time:', 24)
